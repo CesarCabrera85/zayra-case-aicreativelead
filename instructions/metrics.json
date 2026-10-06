@@ -1,0 +1,22 @@
+{
+ "_note": "Real figures counted from the production log of the Zayra case (06/10/2026). Do not round, extrapolate or add figures that are not here.",
+ "public": [
+  {"key": "final_images", "v": "33", "en": "final campaign images", "es": "imágenes finales de campaña", "source": "16 campaign photos + 2 hero visuals + 8 film frames in the gallery + 7 native-format compositions"},
+  {"key": "film_shots", "v": "16", "en": "shots in the master film", "es": "planos en el film máster", "source": "edit decision list of the :30 master"},
+  {"key": "films", "v": "3", "en": "films: :30 · :15 · :06", "es": "films: :30 · :15 · :06", "source": "master 30.9 s (16:9), cutdowns 15.0 s and 6.0 s (9:16)"},
+  {"key": "loops", "v": "2", "en": "loops: Spotify Canvas + web", "es": "bucles: Spotify Canvas + web", "source": "7.3 s 9:16 canvas, 8.4 s 16:9 silent loop"},
+  {"key": "formats", "v": "4", "en": "formats: 16:9 · 9:16 · 4:5 · 1:1", "es": "formatos: 16:9 · 9:16 · 4:5 · 1:1", "source": "native compositions per format"},
+  {"key": "storyboard", "v": "16", "en": "storyboard frames, drawn first", "es": "viñetas de storyboard, dibujadas primero", "source": "storyboard batch, generated before any final frame"},
+  {"key": "iterations", "v": "6", "en": "single-variable iterations", "es": "iteraciones de una sola variable", "source": "wardrobe, background, light, outerwear, colour note, CTA + language"},
+  {"key": "generations", "v": "212", "en": "generations: 171 image · 41 video", "es": "generaciones: 171 de imagen · 41 de vídeo", "source": "production log (images incl. 9 edits; video excl. 2 engine tests)"},
+  {"key": "selection", "v": "31%", "en": "of image candidates made the final cut", "es": "de las imágenes candidatas llegó al corte final", "source": "33 final / 107 candidates (keyframes, verticals, campaign stills)"},
+  {"key": "delivered", "v": "109", "en": "delivered files", "es": "archivos entregados", "source": "public delivery package of the production (images + videos)"}
+ ],
+ "home_feature": ["final_images", "film_shots", "formats"],
+ "work_feature": ["final_images", "films", "formats"],
+ "full_case": ["final_images", "film_shots", "films", "formats", "storyboard", "iterations", "generations", "selection"],
+ "not_public": {
+  "elapsed_hours": "≈2 h machine time from first identity test to delivery. Real, but NOT recommended on the site: the offer promises a reviewed 10-day process; publishing hours would undercut pricing. César decides.",
+  "followers": "Instagram follower counts are not published (they change and add nothing to the case)."
+ }
+}

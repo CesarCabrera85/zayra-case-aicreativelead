@@ -1,0 +1,1509 @@
+{
+ "routes": {
+  "en": "/work/zayra",
+  "es": "/es/work/zayra"
+ },
+ "public_dirs": {
+  "images": "/images/work/zayra/",
+  "media": "/media/work/zayra/"
+ },
+ "home_feature": {
+  "anchor_id": "featured-case",
+  "insert_after": "section#offer",
+  "insert_before": "section#how",
+  "media": {
+   "loop_mp4": "/media/work/zayra/zayra-loop-16x9-silent.mp4",
+   "poster": {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-home-feature-poster-1600.webp 1600w",
+     "/images/work/zayra/zayra-home-feature-poster-960.webp 960w"
+    ],
+    "jpg": "/images/work/zayra/zayra-home-feature-poster-1600.jpg",
+    "avif": "/images/work/zayra/zayra-home-feature-poster-1600.avif",
+    "width": 1600,
+    "height": 900,
+    "alt_en": "Zayra — Entera, featured production case",
+    "alt_es": "Zayra — Entera, caso de producción destacado"
+   }
+  },
+  "identity_strip": [
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-home-identity-1-480.webp 480w"
+    ],
+    "jpg": "/images/work/zayra/zayra-home-identity-1-480.jpg",
+    "avif": null,
+    "width": 480,
+    "height": 600,
+    "alt_en": "Zayra, same identity — dawn · cu",
+    "alt_es": "Zayra, misma identidad — alba · pp"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-home-identity-2-480.webp 480w"
+    ],
+    "jpg": "/images/work/zayra/zayra-home-identity-2-480.jpg",
+    "avif": null,
+    "width": 480,
+    "height": 600,
+    "alt_en": "Zayra, same identity — noon · ms",
+    "alt_es": "Zayra, misma identidad — mediodía · pm"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-home-identity-3-480.webp 480w"
+    ],
+    "jpg": "/images/work/zayra/zayra-home-identity-3-480.jpg",
+    "avif": null,
+    "width": 480,
+    "height": 600,
+    "alt_en": "Zayra, same identity — gold · cu",
+    "alt_es": "Zayra, misma identidad — oro · pp"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-home-identity-4-480.webp 480w"
+    ],
+    "jpg": "/images/work/zayra/zayra-home-identity-4-480.jpg",
+    "avif": null,
+    "width": 480,
+    "height": 600,
+    "alt_en": "Zayra, same identity — night · ms",
+    "alt_es": "Zayra, misma identidad — noche · pm"
+   }
+  ],
+  "board_final": [
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-home-board-07-720.webp 720w"
+    ],
+    "jpg": "/images/work/zayra/zayra-home-board-07-720.jpg",
+    "avif": null,
+    "width": 720,
+    "height": 411,
+    "alt_en": "Storyboard frame, shot 07",
+    "alt_es": "Viñeta de storyboard, plano 07"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-home-final-07-720.webp 720w"
+    ],
+    "jpg": "/images/work/zayra/zayra-home-final-07-720.jpg",
+    "avif": null,
+    "width": 720,
+    "height": 405,
+    "alt_en": "Final frame, shot 07",
+    "alt_es": "Fotograma final, plano 07"
+   }
+  ],
+  "formats_trio": [
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-home-format-9x16-480.webp 480w"
+    ],
+    "jpg": "/images/work/zayra/zayra-home-format-9x16-480.jpg",
+    "avif": null,
+    "width": 480,
+    "height": 853,
+    "alt_en": "Same campaign image composed for 9:16",
+    "alt_es": "La misma imagen de campaña compuesta para 9:16"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-home-format-4x5-480.webp 480w"
+    ],
+    "jpg": "/images/work/zayra/zayra-home-format-4x5-480.jpg",
+    "avif": null,
+    "width": 480,
+    "height": 600,
+    "alt_en": "Same campaign image composed for 4:5",
+    "alt_es": "La misma imagen de campaña compuesta para 4:5"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-home-format-1x1-480.webp 480w"
+    ],
+    "jpg": "/images/work/zayra/zayra-home-format-1x1-480.jpg",
+    "avif": null,
+    "width": 480,
+    "height": 480,
+    "alt_en": "Same campaign image composed for 1:1",
+    "alt_es": "La misma imagen de campaña compuesta para 1:1"
+   }
+  ],
+  "copy_key": "home_feature",
+  "links": {
+   "spotify_album": "https://open.spotify.com/album/1Qk0CNrNoKXB7KVOEoPdW0",
+   "spotify_artist": "https://open.spotify.com/artist/4INXBiDRQAxcAKlroz2yfa",
+   "youtube_video": "https://www.youtube.com/watch?v=mBK_0aZofpI",
+   "instagram": "https://www.instagram.com/zayra_latina/"
+  }
+ },
+ "work_feature": {
+  "anchor_id": "featured-cases",
+  "insert_after": ".inner-hero",
+  "zayra_card": {
+   "image": {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-work-card-1600.webp 1600w",
+     "/images/work/zayra/zayra-work-card-960.webp 960w"
+    ],
+    "jpg": "/images/work/zayra/zayra-work-card-1600.jpg",
+    "avif": "/images/work/zayra/zayra-work-card-1600.avif",
+    "width": 1600,
+    "height": 900,
+    "alt_en": "Zayra — Entera, generative campaign system case",
+    "alt_es": "Zayra — Entera, caso de sistema de campaña generativa"
+   },
+   "loop_mp4": "/media/work/zayra/zayra-loop-16x9-silent.mp4",
+   "poster": {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-work-card-poster-1600.webp 1600w",
+     "/images/work/zayra/zayra-work-card-poster-960.webp 960w"
+    ],
+    "jpg": "/images/work/zayra/zayra-work-card-poster-1600.jpg",
+    "avif": null,
+    "width": 1600,
+    "height": 900,
+    "alt_en": "Zayra — Entera film still",
+    "alt_es": "Fotograma del film Zayra — Entera"
+   },
+   "href_en": "/work/zayra",
+   "href_es": "/es/work/zayra"
+  },
+  "miguel_card": {
+   "image": "/images/series/miguel-cartujo-episode-1-cover.jpg (existing site asset)",
+   "href_en": "/series",
+   "href_es": "/es/series"
+  },
+  "copy_key": "work_feature"
+ },
+ "case": {
+  "hero": {
+   "image_desktop": {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-hero-wall-2400.webp 2400w",
+     "/images/work/zayra/zayra-hero-wall-1600.webp 1600w",
+     "/images/work/zayra/zayra-hero-wall-960.webp 960w"
+    ],
+    "jpg": "/images/work/zayra/zayra-hero-wall-2400.jpg",
+    "avif": "/images/work/zayra/zayra-hero-wall-2400.avif",
+    "width": 2400,
+    "height": 1350,
+    "alt_en": "Zayra stands against a sunlit white wall, her shadow cast beside her",
+    "alt_es": "Zayra ante una pared blanca al sol, con su sombra al lado"
+   },
+   "image_mobile": {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-hero-wall-vertical-1080.webp 1080w",
+     "/images/work/zayra/zayra-hero-wall-vertical-720.webp 720w"
+    ],
+    "jpg": "/images/work/zayra/zayra-hero-wall-vertical-1080.jpg",
+    "avif": "/images/work/zayra/zayra-hero-wall-vertical-1080.avif",
+    "width": 1080,
+    "height": 1920,
+    "alt_en": "Zayra, vertical key visual against a white wall in hard sun",
+    "alt_es": "Zayra, visual vertical ante una pared blanca con sol duro"
+   },
+   "loop_mp4": "/media/work/zayra/zayra-loop-16x9-silent.mp4",
+   "loop_poster": {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-poster-loop-1920.webp 1920w",
+     "/images/work/zayra/zayra-poster-loop-960.webp 960w"
+    ],
+    "jpg": "/images/work/zayra/zayra-poster-loop-1920.jpg",
+    "avif": "/images/work/zayra/zayra-poster-loop-1920.avif",
+    "width": 1920,
+    "height": 1080,
+    "alt_en": "Zayra — Entera film still",
+    "alt_es": "Fotograma del film Zayra — Entera"
+   }
+  },
+  "project": {
+   "image_en": {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-keyart-en-1920.webp 1920w",
+     "/images/work/zayra/zayra-keyart-en-1200.webp 1200w"
+    ],
+    "jpg": "/images/work/zayra/zayra-keyart-en-1920.jpg",
+    "avif": null,
+    "width": 1920,
+    "height": 1080,
+    "alt_en": "Zayra — Entera key art: the artist against a white wall, title on the left",
+    "alt_es": "Key art de Zayra — Entera: la artista ante una pared blanca, título a la izquierda"
+   },
+   "image_es": {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-keyart-es-1920.webp 1920w",
+     "/images/work/zayra/zayra-keyart-es-1200.webp 1200w"
+    ],
+    "jpg": "/images/work/zayra/zayra-keyart-es-1920.jpg",
+    "avif": null,
+    "width": 1920,
+    "height": 1080,
+    "alt_en": "Zayra — Entera key art: the artist against a white wall, title on the left",
+    "alt_es": "Key art de Zayra — Entera: la artista ante una pared blanca, título a la izquierda"
+   },
+   "live_links": {
+    "spotify_album": "https://open.spotify.com/album/1Qk0CNrNoKXB7KVOEoPdW0",
+    "spotify_artist": "https://open.spotify.com/artist/4INXBiDRQAxcAKlroz2yfa",
+    "youtube_video": "https://www.youtube.com/watch?v=mBK_0aZofpI",
+    "instagram": "https://www.instagram.com/zayra_latina/"
+   }
+  },
+  "creative_direction": {
+   "chapters": [
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-chapter-1-dawn-1600.webp 1600w",
+      "/images/work/zayra/zayra-chapter-1-dawn-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-chapter-1-dawn-1600.jpg",
+     "avif": null,
+     "width": 1600,
+     "height": 900,
+     "alt_en": "Dawn: Zayra alone on the rocks by a calm sea",
+     "alt_es": "Alba: Zayra sola en las rocas junto a un mar en calma"
+    },
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-chapter-2-morning-1600.webp 1600w",
+      "/images/work/zayra/zayra-chapter-2-morning-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-chapter-2-morning-1600.jpg",
+     "avif": null,
+     "width": 1600,
+     "height": 900,
+     "alt_en": "Morning: Zayra walking down white stone stairs",
+     "alt_es": "Mañana: Zayra bajando escaleras blancas de piedra"
+    },
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-chapter-3-noon-1600.webp 1600w",
+      "/images/work/zayra/zayra-chapter-3-noon-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-chapter-3-noon-1600.jpg",
+     "avif": null,
+     "width": 1600,
+     "height": 900,
+     "alt_en": "Noon: Zayra at a white wall with her hard shadow",
+     "alt_es": "Mediodía: Zayra ante una pared blanca con su sombra dura"
+    },
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-chapter-4-gold-1600.webp 1600w",
+      "/images/work/zayra/zayra-chapter-4-gold-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-chapter-4-gold-1600.jpg",
+     "avif": null,
+     "width": 1600,
+     "height": 900,
+     "alt_en": "Golden hour: Zayra looking back over her shoulder on a rooftop",
+     "alt_es": "Hora dorada: Zayra mirando por encima del hombro en una azotea"
+    },
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-chapter-5-night-1600.webp 1600w",
+      "/images/work/zayra/zayra-chapter-5-night-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-chapter-5-night-1600.jpg",
+     "avif": null,
+     "width": 1600,
+     "height": 900,
+     "alt_en": "Night: Zayra dancing alone under string lights",
+     "alt_es": "Noche: Zayra bailando sola bajo una guirnalda de bombillas"
+    }
+   ],
+   "palette": [
+    "#9fb3c4",
+    "#f4f1ea",
+    "#1d4f8c",
+    "#0b0b0b",
+    "#d99a4e",
+    "#7a2430"
+   ],
+   "before": [
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-before-night-1-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-before-night-1-800.jpg",
+     "avif": null,
+     "width": 800,
+     "height": 797,
+     "alt_en": "Existing Zayra material: night studio portrait",
+     "alt_es": "Material existente de Zayra: retrato nocturno de estudio"
+    },
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-before-night-2-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-before-night-2-800.jpg",
+     "avif": null,
+     "width": 800,
+     "height": 859,
+     "alt_en": "Existing Zayra material: night studio portrait",
+     "alt_es": "Material existente de Zayra: retrato nocturno de estudio"
+    },
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-before-night-3-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-before-night-3-800.jpg",
+     "avif": null,
+     "width": 800,
+     "height": 797,
+     "alt_en": "Existing Zayra material: night studio portrait",
+     "alt_es": "Material existente de Zayra: retrato nocturno de estudio"
+    }
+   ],
+   "after": [
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-campaign-01-1400.webp 1400w",
+      "/images/work/zayra/zayra-campaign-01-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-campaign-01-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 1750,
+     "alt_en": "Zayra — Entera campaign photograph",
+     "alt_es": "Fotografía de campaña de Zayra — Entera"
+    },
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-campaign-04-1400.webp 1400w",
+      "/images/work/zayra/zayra-campaign-04-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-campaign-04-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 2489,
+     "alt_en": "Zayra — Entera campaign photograph",
+     "alt_es": "Fotografía de campaña de Zayra — Entera"
+    },
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-campaign-06-1400.webp 1400w",
+      "/images/work/zayra/zayra-campaign-06-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-campaign-06-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 1750,
+     "alt_en": "Zayra — Entera campaign photograph",
+     "alt_es": "Fotografía de campaña de Zayra — Entera"
+    },
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-campaign-10-1400.webp 1400w",
+      "/images/work/zayra/zayra-campaign-10-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-campaign-10-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 1750,
+     "alt_en": "Zayra — Entera campaign photograph",
+     "alt_es": "Fotografía de campaña de Zayra — Entera"
+    },
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-campaign-13-1400.webp 1400w",
+      "/images/work/zayra/zayra-campaign-13-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-campaign-13-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 1750,
+     "alt_en": "Zayra — Entera campaign photograph",
+     "alt_es": "Fotografía de campaña de Zayra — Entera"
+    },
+    {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-campaign-14-1400.webp 1400w",
+      "/images/work/zayra/zayra-campaign-14-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-campaign-14-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 2489,
+     "alt_en": "Zayra — Entera campaign photograph",
+     "alt_es": "Fotografía de campaña de Zayra — Entera"
+    }
+   ],
+   "storyboard_sheet": {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-storyboard-16-frames-2000.webp 2000w",
+     "/images/work/zayra/zayra-storyboard-16-frames-1200.webp 1200w"
+    ],
+    "jpg": "/images/work/zayra/zayra-storyboard-16-frames-2000.jpg",
+    "avif": null,
+    "width": 2000,
+    "height": 1137,
+    "alt_en": "Sixteen hand-drawn pencil storyboard frames for the Entera film",
+    "alt_es": "Dieciséis viñetas de storyboard a lápiz del film Entera"
+   }
+  },
+  "identity": [
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-01-900.webp 900w",
+     "/images/work/zayra/zayra-identity-01-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-01-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 1125,
+    "alt_en": "Zayra, same identity — dawn · cu",
+    "alt_es": "Zayra, misma identidad — alba · pp",
+    "cap_en": "DAWN · CU",
+    "cap_es": "ALBA · PP"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-02-900.webp 900w",
+     "/images/work/zayra/zayra-identity-02-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-02-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 506,
+    "alt_en": "Zayra, same identity — dawn · 3/4",
+    "alt_es": "Zayra, misma identidad — alba · 3/4",
+    "cap_en": "DAWN · 3/4",
+    "cap_es": "ALBA · 3/4"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-03-900.webp 900w",
+     "/images/work/zayra/zayra-identity-03-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-03-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 1600,
+    "alt_en": "Zayra, same identity — dawn · full",
+    "alt_es": "Zayra, misma identidad — alba · cuerpo entero",
+    "cap_en": "DAWN · FULL",
+    "cap_es": "ALBA · CUERPO ENTERO"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-04-900.webp 900w",
+     "/images/work/zayra/zayra-identity-04-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-04-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 1600,
+    "alt_en": "Zayra, same identity — morning · back",
+    "alt_es": "Zayra, misma identidad — mañana · espalda",
+    "cap_en": "MORNING · BACK",
+    "cap_es": "MAÑANA · ESPALDA"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-05-900.webp 900w",
+     "/images/work/zayra/zayra-identity-05-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-05-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 1125,
+    "alt_en": "Zayra, same identity — morning · seated",
+    "alt_es": "Zayra, misma identidad — mañana · sentada",
+    "cap_en": "MORNING · SEATED",
+    "cap_es": "MAÑANA · SENTADA"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-06-900.webp 900w",
+     "/images/work/zayra/zayra-identity-06-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-06-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 1125,
+    "alt_en": "Zayra, same identity — morning · ms",
+    "alt_es": "Zayra, misma identidad — mañana · pm",
+    "cap_en": "MORNING · MS",
+    "cap_es": "MAÑANA · PM"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-07-900.webp 900w",
+     "/images/work/zayra/zayra-identity-07-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-07-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 1125,
+    "alt_en": "Zayra, same identity — noon · ms",
+    "alt_es": "Zayra, misma identidad — mediodía · pm",
+    "cap_en": "NOON · MS",
+    "cap_es": "MEDIODÍA · PM"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-08-900.webp 900w",
+     "/images/work/zayra/zayra-identity-08-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-08-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 900,
+    "alt_en": "Zayra, same identity — noon · profile",
+    "alt_es": "Zayra, misma identidad — mediodía · perfil",
+    "cap_en": "NOON · PROFILE",
+    "cap_es": "MEDIODÍA · PERFIL"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-09-900.webp 900w",
+     "/images/work/zayra/zayra-identity-09-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-09-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 1600,
+    "alt_en": "Zayra, same identity — noon · low angle",
+    "alt_es": "Zayra, misma identidad — mediodía · contrapicado",
+    "cap_en": "NOON · LOW ANGLE",
+    "cap_es": "MEDIODÍA · CONTRAPICADO"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-10-900.webp 900w",
+     "/images/work/zayra/zayra-identity-10-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-10-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 506,
+    "alt_en": "Zayra, same identity — noon · profile cu",
+    "alt_es": "Zayra, misma identidad — mediodía · perfil pp",
+    "cap_en": "NOON · PROFILE CU",
+    "cap_es": "MEDIODÍA · PERFIL PP"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-11-900.webp 900w",
+     "/images/work/zayra/zayra-identity-11-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-11-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 1125,
+    "alt_en": "Zayra, same identity — gold · cu",
+    "alt_es": "Zayra, misma identidad — oro · pp",
+    "cap_en": "GOLD · CU",
+    "cap_es": "ORO · PP"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-12-900.webp 900w",
+     "/images/work/zayra/zayra-identity-12-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-12-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 506,
+    "alt_en": "Zayra, same identity — gold · look back",
+    "alt_es": "Zayra, misma identidad — oro · mirada atrás",
+    "cap_en": "GOLD · LOOK BACK",
+    "cap_es": "ORO · MIRADA ATRÁS"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-13-900.webp 900w",
+     "/images/work/zayra/zayra-identity-13-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-13-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 1600,
+    "alt_en": "Zayra, same identity — gold · seated",
+    "alt_es": "Zayra, misma identidad — oro · sentada",
+    "cap_en": "GOLD · SEATED",
+    "cap_es": "ORO · SENTADA"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-14-900.webp 900w",
+     "/images/work/zayra/zayra-identity-14-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-14-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 1125,
+    "alt_en": "Zayra, same identity — night · ms",
+    "alt_es": "Zayra, misma identidad — noche · pm",
+    "cap_en": "NIGHT · MS",
+    "cap_es": "NOCHE · PM"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-15-900.webp 900w",
+     "/images/work/zayra/zayra-identity-15-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-15-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 1125,
+    "alt_en": "Zayra, same identity — night · laugh",
+    "alt_es": "Zayra, misma identidad — noche · risa",
+    "cap_en": "NIGHT · LAUGH",
+    "cap_es": "NOCHE · RISA"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-identity-16-900.webp 900w",
+     "/images/work/zayra/zayra-identity-16-600.webp 600w"
+    ],
+    "jpg": "/images/work/zayra/zayra-identity-16-900.jpg",
+    "avif": null,
+    "width": 900,
+    "height": 900,
+    "alt_en": "Zayra, same identity — night · ecu",
+    "alt_es": "Zayra, misma identidad — noche · ppp",
+    "cap_en": "NIGHT · ECU",
+    "cap_es": "NOCHE · PPP"
+   }
+  ],
+  "storyboard_final": [
+   {
+    "shot": "01",
+    "board": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-board-01-1344.webp 1344w",
+      "/images/work/zayra/zayra-board-01-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-board-01-1344.jpg",
+     "avif": null,
+     "width": 1344,
+     "height": 768,
+     "alt_en": "Storyboard frame, shot 01: pencil sketch",
+     "alt_es": "Viñeta de storyboard, plano 01: boceto a lápiz"
+    },
+    "final": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-final-01-1400.webp 1400w",
+      "/images/work/zayra/zayra-final-01-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-final-01-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 788,
+     "alt_en": "Final film frame, shot 01",
+     "alt_es": "Fotograma final del film, plano 01"
+    },
+    "cap_en": "Shot 01 · Dawn · extreme wide",
+    "cap_es": "Plano 01 · Alba · gran plano general"
+   },
+   {
+    "shot": "07",
+    "board": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-board-07-1344.webp 1344w",
+      "/images/work/zayra/zayra-board-07-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-board-07-1344.jpg",
+     "avif": null,
+     "width": 1344,
+     "height": 768,
+     "alt_en": "Storyboard frame, shot 07: pencil sketch",
+     "alt_es": "Viñeta de storyboard, plano 07: boceto a lápiz"
+    },
+    "final": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-final-07-1400.webp 1400w",
+      "/images/work/zayra/zayra-final-07-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-final-07-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 788,
+     "alt_en": "Final film frame, shot 07",
+     "alt_es": "Fotograma final del film, plano 07"
+    },
+    "cap_en": "Shot 07 · Noon · the shadow",
+    "cap_es": "Plano 07 · Mediodía · la sombra"
+   },
+   {
+    "shot": "10",
+    "board": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-board-10-1344.webp 1344w",
+      "/images/work/zayra/zayra-board-10-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-board-10-1344.jpg",
+     "avif": null,
+     "width": 1344,
+     "height": 768,
+     "alt_en": "Storyboard frame, shot 10: pencil sketch",
+     "alt_es": "Viñeta de storyboard, plano 10: boceto a lápiz"
+    },
+    "final": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-final-10-1400.webp 1400w",
+      "/images/work/zayra/zayra-final-10-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-final-10-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 788,
+     "alt_en": "Final film frame, shot 10",
+     "alt_es": "Fotograma final del film, plano 10"
+    },
+    "cap_en": "Shot 10 · Gold · over the shoulder",
+    "cap_es": "Plano 10 · Oro · por encima del hombro"
+   },
+   {
+    "shot": "13",
+    "board": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-board-13-1344.webp 1344w",
+      "/images/work/zayra/zayra-board-13-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-board-13-1344.jpg",
+     "avif": null,
+     "width": 1344,
+     "height": 768,
+     "alt_en": "Storyboard frame, shot 13: pencil sketch",
+     "alt_es": "Viñeta de storyboard, plano 13: boceto a lápiz"
+    },
+    "final": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-final-13-1400.webp 1400w",
+      "/images/work/zayra/zayra-final-13-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-final-13-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 788,
+     "alt_en": "Final film frame, shot 13",
+     "alt_es": "Fotograma final del film, plano 13"
+    },
+    "cap_en": "Shot 13 · Night · entrance",
+    "cap_es": "Plano 13 · Noche · entrada"
+   }
+  ],
+  "iterations": [
+   {
+    "id": "wardrobe",
+    "aspect": "16/9",
+    "original": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-iteration-wardrobe-original-1400.webp 1400w",
+      "/images/work/zayra/zayra-iteration-wardrobe-original-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-iteration-wardrobe-original-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 788,
+     "alt_en": "Original frame before the wardrobe change",
+     "alt_es": "Fotograma original antes del cambio de vestuario"
+    },
+    "changed": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-iteration-wardrobe-changed-1400.webp 1400w",
+      "/images/work/zayra/zayra-iteration-wardrobe-changed-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-iteration-wardrobe-changed-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 788,
+     "alt_en": "Same frame with only the wardrobe changed",
+     "alt_es": "El mismo fotograma con solo el vestuario cambiado"
+    },
+    "label_en": "Wardrobe",
+    "label_es": "Vestuario",
+    "changed_en": "Tank top and trousers → white linen.",
+    "changed_es": "Camiseta y pantalón → lino blanco.",
+    "kept_en": "Face, jacket, pose, wall, shadow, light.",
+    "kept_es": "Cara, chaqueta, pose, pared, sombra, luz."
+   },
+   {
+    "id": "background",
+    "aspect": "16/9",
+    "original": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-iteration-background-original-1400.webp 1400w",
+      "/images/work/zayra/zayra-iteration-background-original-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-iteration-background-original-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 788,
+     "alt_en": "Original frame before the background change",
+     "alt_es": "Fotograma original antes del cambio de fondo"
+    },
+    "changed": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-iteration-background-changed-1400.webp 1400w",
+      "/images/work/zayra/zayra-iteration-background-changed-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-iteration-background-changed-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 788,
+     "alt_en": "Same frame with only the background changed",
+     "alt_es": "El mismo fotograma con solo el fondo cambiado"
+    },
+    "label_en": "Background",
+    "label_es": "Fondo",
+    "changed_en": "White lime wall → terracotta plaster.",
+    "changed_es": "Pared de cal → estuco terracota.",
+    "kept_en": "Face, wardrobe, pose, shadow shape, light.",
+    "kept_es": "Cara, vestuario, pose, forma de la sombra, luz."
+   },
+   {
+    "id": "light",
+    "aspect": "16/9",
+    "original": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-iteration-light-original-1400.webp 1400w",
+      "/images/work/zayra/zayra-iteration-light-original-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-iteration-light-original-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 788,
+     "alt_en": "Original frame before the light change",
+     "alt_es": "Fotograma original antes del cambio de luz"
+    },
+    "changed": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-iteration-light-changed-1400.webp 1400w",
+      "/images/work/zayra/zayra-iteration-light-changed-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-iteration-light-changed-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 788,
+     "alt_en": "Same frame with only the light changed",
+     "alt_es": "El mismo fotograma con solo el luz cambiado"
+    },
+    "label_en": "Light",
+    "label_es": "Luz",
+    "changed_en": "Hard noon → golden hour.",
+    "changed_es": "Mediodía duro → hora dorada.",
+    "kept_en": "Face, wardrobe, pose, framing.",
+    "kept_es": "Cara, vestuario, pose, encuadre."
+   },
+   {
+    "id": "outerwear",
+    "aspect": "16/9",
+    "original": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-iteration-outerwear-original-1400.webp 1400w",
+      "/images/work/zayra/zayra-iteration-outerwear-original-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-iteration-outerwear-original-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 788,
+     "alt_en": "Original frame before the outerwear change",
+     "alt_es": "Fotograma original antes del cambio de prenda exterior"
+    },
+    "changed": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-iteration-outerwear-changed-1400.webp 1400w",
+      "/images/work/zayra/zayra-iteration-outerwear-changed-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-iteration-outerwear-changed-1400.jpg",
+     "avif": null,
+     "width": 1400,
+     "height": 788,
+     "alt_en": "Same frame with only the outerwear changed",
+     "alt_es": "El mismo fotograma con solo el prenda exterior cambiado"
+    },
+    "label_en": "Outerwear",
+    "label_es": "Prenda exterior",
+    "changed_en": "Black leather → camel suede.",
+    "changed_es": "Cuero negro → ante camel.",
+    "kept_en": "Face, look-back, white shirt, rooftop, sea, light.",
+    "kept_es": "Cara, mirada atrás, camisa, azotea, mar, luz."
+   },
+   {
+    "id": "colour",
+    "aspect": "4/5",
+    "original": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-iteration-colour-original-1024.webp 1024w",
+      "/images/work/zayra/zayra-iteration-colour-original-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-iteration-colour-original-1024.jpg",
+     "avif": null,
+     "width": 1024,
+     "height": 1280,
+     "alt_en": "Original frame before the colour note change",
+     "alt_es": "Fotograma original antes del cambio de nota de color"
+    },
+    "changed": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-iteration-colour-changed-1024.webp 1024w",
+      "/images/work/zayra/zayra-iteration-colour-changed-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-iteration-colour-changed-1024.jpg",
+     "avif": null,
+     "width": 1024,
+     "height": 1280,
+     "alt_en": "Same frame with only the colour note changed",
+     "alt_es": "El mismo fotograma con solo el nota de color cambiado"
+    },
+    "label_en": "Colour note",
+    "label_es": "Nota de color",
+    "changed_en": "Pink cast on the skin → natural tungsten skin.",
+    "changed_es": "Tinte rosa en la piel → piel natural de tungsteno.",
+    "kept_en": "Face, expression, bulbs, framing.",
+    "kept_es": "Cara, expresión, bombillas, encuadre."
+   },
+   {
+    "id": "cta",
+    "aspect": "9/16",
+    "original": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-iteration-cta-original-1080.webp 1080w",
+      "/images/work/zayra/zayra-iteration-cta-original-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-iteration-cta-original-1080.jpg",
+     "avif": null,
+     "width": 1080,
+     "height": 1920,
+     "alt_en": "Original frame before the cta + language change",
+     "alt_es": "Fotograma original antes del cambio de cta + idioma"
+    },
+    "changed": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-iteration-cta-changed-1080.webp 1080w",
+      "/images/work/zayra/zayra-iteration-cta-changed-800.webp 800w"
+     ],
+     "jpg": "/images/work/zayra/zayra-iteration-cta-changed-1080.jpg",
+     "avif": null,
+     "width": 1080,
+     "height": 1920,
+     "alt_en": "Same frame with only the cta + language changed",
+     "alt_es": "El mismo fotograma con solo el cta + idioma cambiado"
+    },
+    "label_en": "CTA + language",
+    "label_es": "CTA + idioma",
+    "changed_en": "Call to action and language (ES → EN).",
+    "changed_es": "Llamada a la acción e idioma (ES → EN).",
+    "kept_en": "The image itself: not regenerated.",
+    "kept_es": "La imagen: no se regenera."
+   }
+  ],
+  "video": {
+   "master": {
+    "src_1080": "/media/work/zayra/zayra-master-30-16x9-1080p.mp4",
+    "src_720": "/media/work/zayra/zayra-master-30-16x9-720p.mp4",
+    "poster": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-poster-master-1920.webp 1920w",
+      "/images/work/zayra/zayra-poster-master-960.webp 960w"
+     ],
+     "jpg": "/images/work/zayra/zayra-poster-master-1920.jpg",
+     "avif": null,
+     "width": 1920,
+     "height": 1080,
+     "alt_en": "Zayra — Entera film still",
+     "alt_es": "Fotograma del film Zayra — Entera"
+    },
+    "duration": "PT31S"
+   },
+   "cutdown_15": {
+    "src": "/media/work/zayra/zayra-cutdown-15-9x16-1080x1920.mp4",
+    "poster": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-poster-c15-1080.webp 1080w",
+      "/images/work/zayra/zayra-poster-c15-540.webp 540w"
+     ],
+     "jpg": "/images/work/zayra/zayra-poster-c15-1080.jpg",
+     "avif": null,
+     "width": 1080,
+     "height": 1920,
+     "alt_en": "Zayra — Entera film still",
+     "alt_es": "Fotograma del film Zayra — Entera"
+    },
+    "duration": "PT15S"
+   },
+   "cutdown_06": {
+    "src": "/media/work/zayra/zayra-cutdown-06-9x16-1080x1920.mp4",
+    "poster": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-poster-c06-1080.webp 1080w",
+      "/images/work/zayra/zayra-poster-c06-540.webp 540w"
+     ],
+     "jpg": "/images/work/zayra/zayra-poster-c06-1080.jpg",
+     "avif": null,
+     "width": 1080,
+     "height": 1920,
+     "alt_en": "Zayra — Entera film still",
+     "alt_es": "Fotograma del film Zayra — Entera"
+    },
+    "duration": "PT6S"
+   },
+   "extra_deliverables": {
+    "spotify_canvas_loop": "/media/work/zayra/zayra-canvas-9x16-silent.mp4",
+    "web_loop": "/media/work/zayra/zayra-loop-16x9-silent.mp4"
+   }
+  },
+  "formats": {
+   "hero": {
+    "16x9": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-format-hero-16x9-1600.webp 1600w",
+      "/images/work/zayra/zayra-format-hero-16x9-960.webp 960w"
+     ],
+     "jpg": "/images/work/zayra/zayra-format-hero-16x9-1600.jpg",
+     "avif": null,
+     "width": 1600,
+     "height": 900,
+     "alt_en": "Zayra campaign image composed natively for 16:9",
+     "alt_es": "Imagen de campaña de Zayra compuesta de origen para 16:9"
+    },
+    "9x16": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-format-hero-9x16-1080.webp 1080w",
+      "/images/work/zayra/zayra-format-hero-9x16-640.webp 640w"
+     ],
+     "jpg": "/images/work/zayra/zayra-format-hero-9x16-1080.jpg",
+     "avif": null,
+     "width": 1080,
+     "height": 1920,
+     "alt_en": "Zayra campaign image composed natively for 9:16",
+     "alt_es": "Imagen de campaña de Zayra compuesta de origen para 9:16"
+    },
+    "4x5": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-format-hero-4x5-1080.webp 1080w",
+      "/images/work/zayra/zayra-format-hero-4x5-640.webp 640w"
+     ],
+     "jpg": "/images/work/zayra/zayra-format-hero-4x5-1080.jpg",
+     "avif": null,
+     "width": 1080,
+     "height": 1350,
+     "alt_en": "Zayra campaign image composed natively for 4:5",
+     "alt_es": "Imagen de campaña de Zayra compuesta de origen para 4:5"
+    },
+    "1x1": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-format-hero-1x1-1080.webp 1080w",
+      "/images/work/zayra/zayra-format-hero-1x1-640.webp 640w"
+     ],
+     "jpg": "/images/work/zayra/zayra-format-hero-1x1-1080.jpg",
+     "avif": null,
+     "width": 1080,
+     "height": 1080,
+     "alt_en": "Zayra campaign image composed natively for 1:1",
+     "alt_es": "Imagen de campaña de Zayra compuesta de origen para 1:1"
+    }
+   },
+   "night": {
+    "16x9": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-format-night-16x9-1600.webp 1600w",
+      "/images/work/zayra/zayra-format-night-16x9-960.webp 960w"
+     ],
+     "jpg": "/images/work/zayra/zayra-format-night-16x9-1600.jpg",
+     "avif": null,
+     "width": 1600,
+     "height": 900,
+     "alt_en": "Zayra campaign image composed natively for 16:9",
+     "alt_es": "Imagen de campaña de Zayra compuesta de origen para 16:9"
+    },
+    "9x16": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-format-night-9x16-1080.webp 1080w",
+      "/images/work/zayra/zayra-format-night-9x16-640.webp 640w"
+     ],
+     "jpg": "/images/work/zayra/zayra-format-night-9x16-1080.jpg",
+     "avif": null,
+     "width": 1080,
+     "height": 1920,
+     "alt_en": "Zayra campaign image composed natively for 9:16",
+     "alt_es": "Imagen de campaña de Zayra compuesta de origen para 9:16"
+    },
+    "4x5": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-format-night-4x5-1080.webp 1080w",
+      "/images/work/zayra/zayra-format-night-4x5-640.webp 640w"
+     ],
+     "jpg": "/images/work/zayra/zayra-format-night-4x5-1080.jpg",
+     "avif": null,
+     "width": 1080,
+     "height": 1350,
+     "alt_en": "Zayra campaign image composed natively for 4:5",
+     "alt_es": "Imagen de campaña de Zayra compuesta de origen para 4:5"
+    },
+    "1x1": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-format-night-1x1-1080.webp 1080w",
+      "/images/work/zayra/zayra-format-night-1x1-640.webp 640w"
+     ],
+     "jpg": "/images/work/zayra/zayra-format-night-1x1-1080.jpg",
+     "avif": null,
+     "width": 1080,
+     "height": 1080,
+     "alt_en": "Zayra campaign image composed natively for 1:1",
+     "alt_es": "Imagen de campaña de Zayra compuesta de origen para 1:1"
+    }
+   },
+   "dawn": {
+    "16x9": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-format-dawn-16x9-1600.webp 1600w",
+      "/images/work/zayra/zayra-format-dawn-16x9-960.webp 960w"
+     ],
+     "jpg": "/images/work/zayra/zayra-format-dawn-16x9-1600.jpg",
+     "avif": null,
+     "width": 1600,
+     "height": 900,
+     "alt_en": "Zayra campaign image composed natively for 16:9",
+     "alt_es": "Imagen de campaña de Zayra compuesta de origen para 16:9"
+    },
+    "9x16": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-format-dawn-9x16-1080.webp 1080w",
+      "/images/work/zayra/zayra-format-dawn-9x16-640.webp 640w"
+     ],
+     "jpg": "/images/work/zayra/zayra-format-dawn-9x16-1080.jpg",
+     "avif": null,
+     "width": 1080,
+     "height": 1920,
+     "alt_en": "Zayra campaign image composed natively for 9:16",
+     "alt_es": "Imagen de campaña de Zayra compuesta de origen para 9:16"
+    },
+    "4x5": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-format-dawn-4x5-1080.webp 1080w",
+      "/images/work/zayra/zayra-format-dawn-4x5-640.webp 640w"
+     ],
+     "jpg": "/images/work/zayra/zayra-format-dawn-4x5-1080.jpg",
+     "avif": null,
+     "width": 1080,
+     "height": 1350,
+     "alt_en": "Zayra campaign image composed natively for 4:5",
+     "alt_es": "Imagen de campaña de Zayra compuesta de origen para 4:5"
+    },
+    "1x1": {
+     "webp_srcset": [
+      "/images/work/zayra/zayra-format-dawn-1x1-1080.webp 1080w",
+      "/images/work/zayra/zayra-format-dawn-1x1-640.webp 640w"
+     ],
+     "jpg": "/images/work/zayra/zayra-format-dawn-1x1-1080.jpg",
+     "avif": null,
+     "width": 1080,
+     "height": 1080,
+     "alt_en": "Zayra campaign image composed natively for 1:1",
+     "alt_es": "Imagen de campaña de Zayra compuesta de origen para 1:1"
+    }
+   }
+  },
+  "formats_matrix_image_optional": {
+   "webp_srcset": [
+    "/images/work/zayra/zayra-campaign-system-matrix-2400.webp 2400w",
+    "/images/work/zayra/zayra-campaign-system-matrix-1400.webp 1400w"
+   ],
+   "jpg": "/images/work/zayra/zayra-campaign-system-matrix-2400.jpg",
+   "avif": null,
+   "width": 2400,
+   "height": 1125,
+   "alt_en": "The campaign system: master concept, hero, secondary visuals, social, video, formats, variations",
+   "alt_es": "El sistema de campaña: concepto máster, hero, visuales secundarios, social, vídeo, formatos, variaciones"
+  },
+  "final_campaign": [
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-01-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-01-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-01-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 1750,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-02-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-02-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-02-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 2489,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-03-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-03-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-03-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 1750,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-04-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-04-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-04-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 2489,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-05-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-05-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-05-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 1750,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-06-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-06-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-06-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 1750,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-07-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-07-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-07-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 1400,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-08-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-08-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-08-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 2489,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-09-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-09-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-09-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 1750,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-10-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-10-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-10-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 1750,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-11-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-11-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-11-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 2489,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-12-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-12-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-12-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 788,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-13-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-13-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-13-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 1750,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-14-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-14-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-14-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 2489,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-15-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-15-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-15-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 1750,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-16-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-16-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-16-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 1400,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-17-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-17-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-17-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 788,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-18-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-18-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-18-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 788,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-19-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-19-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-19-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 788,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-20-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-20-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-20-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 788,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-21-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-21-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-21-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 788,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-22-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-22-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-22-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 788,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-23-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-23-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-23-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 788,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   },
+   {
+    "webp_srcset": [
+     "/images/work/zayra/zayra-campaign-24-1400.webp 1400w",
+     "/images/work/zayra/zayra-campaign-24-800.webp 800w"
+    ],
+    "jpg": "/images/work/zayra/zayra-campaign-24-1400.jpg",
+    "avif": null,
+    "width": 1400,
+    "height": 788,
+    "alt_en": "Zayra — Entera campaign photograph",
+    "alt_es": "Fotografía de campaña de Zayra — Entera"
+   }
+  ],
+  "metrics_source": "03_FULL_CASE/METRICS/metrics.json (keys listed in 'full_case')",
+  "copy_key": "case"
+ }
+}

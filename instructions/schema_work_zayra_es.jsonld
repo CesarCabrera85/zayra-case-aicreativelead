@@ -1,0 +1,115 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "CreativeWork",
+   "@id": "https://aicreativelead.com/es/work/zayra#case",
+   "name": "Zayra — Entera",
+   "headline": "Caso Zayra: campaña con IA, una identidad",
+   "description": "Cómo AI Creative Lead convirtió una dirección creativa en la campaña completa de la artista IA Zayra: film, reducciones, foto y todos los formatos.",
+   "url": "https://aicreativelead.com/es/work/zayra",
+   "inLanguage": "es",
+   "image": "https://aicreativelead.com/images/work/zayra/zayra-og-es-1200.jpg",
+   "creator": {
+    "@id": "https://aicreativelead.com/#org"
+   },
+   "publisher": {
+    "@id": "https://aicreativelead.com/#org"
+   },
+   "about": {
+    "@id": "https://aicreativelead.com/work/zayra#zayra"
+   },
+   "isPartOf": {
+    "@type": "CollectionPage",
+    "@id": "https://aicreativelead.com/es/work"
+   },
+   "genre": "Advertising campaign",
+   "dateCreated": "2026-10-06",
+   "video": {
+    "@id": "https://aicreativelead.com/es/work/zayra#film"
+   },
+   "workExample": [
+    {
+     "@id": "https://aicreativelead.com/es/work/zayra#film"
+    }
+   ]
+  },
+  {
+   "@type": "VideoObject",
+   "@id": "https://aicreativelead.com/es/work/zayra#film",
+   "name": "Zayra — Entera (:30)",
+   "description": "Film de lanzamiento del single «Entera» de Zayra, del alba a la noche.",
+   "thumbnailUrl": [
+    "https://aicreativelead.com/images/work/zayra/zayra-poster-master-1920.jpg"
+   ],
+   "contentUrl": "https://aicreativelead.com/media/work/zayra/zayra-master-30-16x9-1080p.mp4",
+   "uploadDate": "PUBLISH_DATE_ISO8601",
+   "duration": "PT31S",
+   "width": 1920,
+   "height": 1080,
+   "inLanguage": "es",
+   "creator": {
+    "@id": "https://aicreativelead.com/#org"
+   },
+   "publisher": {
+    "@id": "https://aicreativelead.com/#org"
+   }
+  },
+  {
+   "@type": "MusicGroup",
+   "@id": "https://aicreativelead.com/work/zayra#zayra",
+   "name": "Zayra",
+   "genre": "Latin pop",
+   "description": "Artista latina virtual creada con IA generativa por AI Creative Lead.",
+   "sameAs": [
+    "https://open.spotify.com/artist/4INXBiDRQAxcAKlroz2yfa",
+    "https://www.instagram.com/zayra_latina/"
+   ],
+   "album": {
+    "@id": "https://open.spotify.com/album/1Qk0CNrNoKXB7KVOEoPdW0#album"
+   },
+   "subjectOf": {
+    "@type": "VideoObject",
+    "name": "ZAYRA — Yo no quiero un hombre tibio (official music video)",
+    "url": "https://www.youtube.com/watch?v=mBK_0aZofpI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/mBK_0aZofpI",
+    "uploadDate": "2026-08-01",
+    "thumbnailUrl": "https://i.ytimg.com/vi/mBK_0aZofpI/hqdefault.jpg"
+   }
+  },
+  {
+   "@type": "MusicAlbum",
+   "@id": "https://open.spotify.com/album/1Qk0CNrNoKXB7KVOEoPdW0#album",
+   "name": "Yo no quiero un hombre tibio",
+   "url": "https://open.spotify.com/album/1Qk0CNrNoKXB7KVOEoPdW0",
+   "datePublished": "2026-07-28",
+   "numTracks": 8,
+   "byArtist": {
+    "@id": "https://aicreativelead.com/work/zayra#zayra"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Inicio",
+     "item": "https://aicreativelead.com/es"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Trabajo",
+     "item": "https://aicreativelead.com/es/work"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Zayra",
+     "item": "https://aicreativelead.com/es/work/zayra"
+    }
+   ]
+  }
+ ]
+}

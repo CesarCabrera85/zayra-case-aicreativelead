@@ -1,0 +1,100 @@
+{
+ "en": {
+  "url": "https://aicreativelead.com/work/zayra",
+  "title": "Zayra case: one AI campaign, every format | AI Creative Lead",
+  "description": "How AI Creative Lead turned one creative direction into a full launch campaign for AI artist Zayra: film, cutdowns, stills and every format, one face.",
+  "h1": "ZAYRA — ENTERA",
+  "og_image": "https://aicreativelead.com/images/work/zayra/zayra-og-en-1200.jpg",
+  "og_locale": "en_GB",
+  "canonical": "https://aicreativelead.com/work/zayra",
+  "robots": "index, follow",
+  "hreflang": {
+   "en": "https://aicreativelead.com/work/zayra",
+   "es": "https://aicreativelead.com/es/work/zayra",
+   "x-default": "https://aicreativelead.com/work/zayra"
+  },
+  "og": {
+   "og:type": "article",
+   "og:title": "Zayra case: one AI campaign, every format",
+   "og:description": "How AI Creative Lead turned one creative direction into a full launch campaign for AI artist Zayra: film, cutdowns, stills and every format, one face.",
+   "og:url": "https://aicreativelead.com/work/zayra",
+   "og:image": "https://aicreativelead.com/images/work/zayra/zayra-og-en-1200.jpg",
+   "og:image:width": "1200",
+   "og:image:height": "630",
+   "og:locale": "en_GB",
+   "og:video": "https://aicreativelead.com/media/work/zayra/zayra-master-30-16x9-1080p.mp4",
+   "og:video:type": "video/mp4",
+   "og:video:width": "1920",
+   "og:video:height": "1080"
+  },
+  "twitter": {
+   "twitter:card": "summary_large_image",
+   "twitter:title": "Zayra case: one AI campaign, every format",
+   "twitter:description": "How AI Creative Lead turned one creative direction into a full launch campaign for AI artist Zayra: film, cutdowns, stills and every format, one face.",
+   "twitter:image": "https://aicreativelead.com/images/work/zayra/zayra-og-en-1200.jpg"
+  },
+  "breadcrumbs": [
+   [
+    "Home",
+    "https://aicreativelead.com/"
+   ],
+   [
+    "Work",
+    "https://aicreativelead.com/work"
+   ],
+   [
+    "Zayra",
+    "https://aicreativelead.com/work/zayra"
+   ]
+  ]
+ },
+ "es": {
+  "url": "https://aicreativelead.com/es/work/zayra",
+  "title": "Caso Zayra: campaña con IA, una identidad | AI Creative Lead",
+  "description": "Cómo AI Creative Lead convirtió una dirección creativa en la campaña completa de la artista IA Zayra: film, reducciones, foto y todos los formatos.",
+  "h1": "ZAYRA — ENTERA",
+  "og_image": "https://aicreativelead.com/images/work/zayra/zayra-og-es-1200.jpg",
+  "og_locale": "es_ES",
+  "canonical": "https://aicreativelead.com/es/work/zayra",
+  "robots": "index, follow",
+  "hreflang": {
+   "en": "https://aicreativelead.com/work/zayra",
+   "es": "https://aicreativelead.com/es/work/zayra",
+   "x-default": "https://aicreativelead.com/work/zayra"
+  },
+  "og": {
+   "og:type": "article",
+   "og:title": "Caso Zayra: campaña con IA, una identidad",
+   "og:description": "Cómo AI Creative Lead convirtió una dirección creativa en la campaña completa de la artista IA Zayra: film, reducciones, foto y todos los formatos.",
+   "og:url": "https://aicreativelead.com/es/work/zayra",
+   "og:image": "https://aicreativelead.com/images/work/zayra/zayra-og-es-1200.jpg",
+   "og:image:width": "1200",
+   "og:image:height": "630",
+   "og:locale": "es_ES",
+   "og:video": "https://aicreativelead.com/media/work/zayra/zayra-master-30-16x9-1080p.mp4",
+   "og:video:type": "video/mp4",
+   "og:video:width": "1920",
+   "og:video:height": "1080"
+  },
+  "twitter": {
+   "twitter:card": "summary_large_image",
+   "twitter:title": "Caso Zayra: campaña con IA, una identidad",
+   "twitter:description": "Cómo AI Creative Lead convirtió una dirección creativa en la campaña completa de la artista IA Zayra: film, reducciones, foto y todos los formatos.",
+   "twitter:image": "https://aicreativelead.com/images/work/zayra/zayra-og-es-1200.jpg"
+  },
+  "breadcrumbs": [
+   [
+    "Inicio",
+    "https://aicreativelead.com/es"
+   ],
+   [
+    "Trabajo",
+    "https://aicreativelead.com/es/work"
+   ],
+   [
+    "Zayra",
+    "https://aicreativelead.com/es/work/zayra"
+   ]
+  ]
+ }
+}

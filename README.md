@@ -1,0 +1,99 @@
+# Zayra business case — delivery for Abacus.AI
+
+**Abacus: start here.** The complete task is below (same text as ABACUS_PROMPT.txt). The full specification is instructions/ABACUS_ZAYRA_INTEGRATION.md.
+
+`	ext
+ROLE
+You are the developer who maintains aicreativelead.com (Next.js). Your task is to ADD the Zayra business case to the site, exactly as specified below, using ONLY the files in the repository below. You do not redesign anything, you do not regenerate or edit any image or video, and you do not rewrite any copy.
+
+REPOSITORY (everything you need is here — nothing is attached elsewhere)
+Repository: https://github.com/CesarCabrera85/zayra-case-aicreativelead  (public; clone it or read it directly). Its contents:
+- public/  -> ALL the final images and videos, already in the exact folders they must have in the aicreativelead.com repository:
+             public/images/work/zayra/  (332 images: .webp, .jpg fallback, .avif for above-the-fold)
+             public/media/work/zayra/   (6 videos: master film 1080p and 720p, cutdowns :15 and :06, two silent loops)
+             Copy this public/ folder into the root of the aicreativelead.com codebase, merging with its existing public/ folder. It only ADDS these two new folders; it replaces nothing.
+- instructions/ -> ABACUS_ZAYRA_INTEGRATION.md (full specification: read it completely before starting; if anything here and there seem to differ, that document wins),
+             content_model.json (every block and section mapped to its files, with public paths, srcset, width/height, alt EN/ES and captions),
+             copy.json (ALL texts EN and ES, single source of truth; copy_en/ and copy_es/ are readable versions of the same text),
+             metrics.json (the only figures allowed on the pages),
+             seo_meta.json, schema_work_zayra_en.jsonld, schema_work_zayra_es.jsonld, alt_texts.csv, SEO_NOTES.md.
+- previews/ -> open in a browser (from a local clone) to see the exact result: home_block_en/es.html, work_block_en/es.html, case_page_en/es.html.
+Every path used in content_model.json, the JSON-LD and the previews already points to /images/work/zayra/... and /media/work/zayra/...
+This repository is a delivery package only. Do NOT deploy it, and do NOT make it part of the website. You implement the changes in the aicreativelead.com codebase.
+
+GOAL
+Zayra must become the first strong commercial business case of AI Creative Lead: proof that the studio turns one creative direction into a complete campaign (brief -> creative direction -> visual system -> identity consistency -> storyboard -> final production -> video -> iteration -> format adaptation -> delivery). It enters the site as EVIDENCE in four places and nowhere else:
+1) Home: a compact "Featured production case" block between OFFER and HOW.
+2) /work (and /es/work): a new "Featured cases" section with Zayra as the main case and Miguel Cartujo as the second.
+3) A new page /work/zayra and its Spanish version /es/work/zayra with the full case.
+4) /method (and /es/method): one contextual link in the Brand Bibles section.
+
+HARD RULES (non-negotiable)
+- Only ADD. Do NOT modify: the Home H1, the Home hero/channel deck or its positioning, any existing section or copy, global metadata, existing titles/descriptions, existing URLs or slugs, redirects, robots.txt, global hreflang, global schema (the Organization entity), llms.txt, Search Console, Bing, SerpAPI, the existing Analytics configuration, the consent banner, the generate_lead event, /admin/seo, or the weekly SEO engine.
+- Do NOT add "Zayra" to the main navigation. Do NOT create a new taxonomy such as /case-studies/. Zayra lives under /work.
+- Do NOT create a new contact funnel or form: every "Send us the brief" uses the site's existing booking exactly as /work does today.
+- Use every string from instructions/copy.json exactly as written (EN and ES). Use every number from metrics.json exactly as written. Never invent, round or add figures. Do not publish production hours.
+- Use the delivered files as they are: no re-cropping, no regeneration, no upscaling, no re-editing of the films.
+- "Entera" is Zayra's NEW single and is NOT on the released Spotify album: never write or link "listen to Entera on Spotify". The Spotify link is her released album.
+- Work on a branch and deploy to a PREVIEW/STAGING URL first. Do NOT publish to production until César approves the preview.
+
+STEP 1 — PUBLISH THE ASSETS
+Copy the public/ folder of this repository into the aicreativelead.com codebase root (merge). Result: public/images/work/zayra/ and public/media/work/zayra/ exist with all files, names unchanged. Do not rename, re-crop, regenerate or re-encode any file. If the site already hosts heavy media on its own CDN/bucket, you may put the mp4 files there instead, updating every reference (pages, schema, OG) consistently. If your image pipeline (e.g. next/image) generates extra sizes, keep quality >= 80 so faces stay clean.
+
+STEP 2 — HOME BLOCK
+Insert a new <section id="featured-case"> immediately AFTER section#offer ("What an AI production company does / 01 / OFFER") and immediately BEFORE section#how ("How you hire an AI production company"). Copy: instructions/copy.json -> en.home_feature / es.home_feature. Assets: instructions/content_model.json -> home_feature. Layout as in previews/home_block_en.html:
+- standard .sec-head: h2 "Featured production case" (ES "Caso de producción destacado"), .idx "CASE 01 — ZAYRA / ENTERA" (ES "CASO 01 — ZAYRA / ENTERA");
+- left: the silent loop (autoplay muted loop playsinline, poster), the whole media links to the case;
+- right: kicker, h3 "ZAYRA", statement "One identity. One campaign. Every format.", body line, 3 stats (33 final campaign images / 16 shots in the master film / 4 formats), three mini proofs (identity strip of 4 faces, storyboard->final pair, 9:16-4:5-1:1 trio) with their labels, the live line with Spotify / YouTube / Instagram links (new tab, rel="noopener"), and the CTA button "View the full case →" (ES "Ver el caso completo →") to /work/zayra (ES /es/work/zayra).
+- Mobile (<1000px): stack, media on top.
+The Home translates with data-en / data-es attributes: give every new text node both attributes, exactly like the neighbouring #offer and #how sections, and use the Home's existing language-aware logic for the internal link. Nothing else on the Home changes.
+
+STEP 3 — WORK BLOCK
+On /work and /es/work insert a new <section id="featured-cases"> immediately AFTER section.inner-hero and BEFORE the schedule ("The schedule" / "La parrilla"). Copy: copy.json -> en.work_feature / es.work_feature. Layout as in previews/work_block_en.html: section header "Featured cases" / "CASE STUDIES — 02" (ES "Casos destacados" / "CASOS DE ESTUDIO — 02"), then two cards:
+- Zayra, primary and large (about 63% width on desktop): 16:9 media (zayra-work-card image, optional silent loop), kicker "CASE 01 · GENERATIVE CAMPAIGN SYSTEM", title "ZAYRA — ENTERA", one line, 4 tags, 3 stats (33 / 3 / 4), "View case →" -> /work/zayra (ES /es/work/zayra).
+- Miguel Cartujo, secondary: existing image /images/series/miguel-cartujo-episode-1-cover.jpg, kicker "CASE 02 · EPISODIC PRODUCTION", one line, 4 tags, "View case →" -> /series (ES /es/series).
+Keep the existing schedule and the existing "Case: Miguel Cartujo" section exactly as they are. Work H1/title/description unchanged. Stack the cards below 1000px.
+
+STEP 4 — CREATE /work/zayra AND /es/work/zayra
+Create the two routes with the site's existing i18n system (/es/work already exists) and the same inner-page shell (master bar, footer, fonts, colour tokens). Build the page from instructions/content_model.json -> case, copy.json -> en.case / es.case and instructions/metrics.json -> full_case. Match previews/case_page_en.html (and case_page_es.html) in order, structure and visual hierarchy:
+1 HERO: full-bleed picture (desktop zayra-hero-wall, mobile zayra-hero-wall-vertical) with the silent loop over it; kicker; the page's single H1 "ZAYRA" + "ENTERA"; statement; one line; CTAs "Watch the film" (#film) and "Send us the brief" (existing booking). Under it the process bar (Brief · Direction · Identity · Storyboard · Iteration · Film · Formats · Delivery, each an anchor) and the 4-fact strip.
+2 THE PROJECT (#project): paragraph + key art (EN key art on EN, ES key art on ES) + the "Zayra, on air" strip linking Spotify album, YouTube official music video and Instagram (new tab, rel="noopener").
+3 THE CHALLENGE (#challenge): big statement, short paragraph, 3 ticks.
+4 CREATIVE DIRECTION (#direction): 5 chapter cards, palette of 6 swatches, before (3 night images) -> after (6 day images), the 16-frame storyboard sheet, the 6 continuity rules.
+5 IDENTITY (#identity): 16-image grid (4 columns desktop, 2 mobile, 4:5 tiles) with captions, then "ONE IDENTITY. MULTIPLE SHOTS. ONE CAMPAIGN."
+6 STORYBOARD -> FINAL (#board): 4 drag-to-compare sliders (storyboard layer clipped over the final frame, input type=range, works with touch and keyboard) with captions.
+7 ITERATION (#iteration): title "Change the variable. Keep the campaign." and 6 cards (original | changed | label + changed + kept). The colour (4:5) and CTA (9:16) cards use narrower image columns.
+8 VIDEO (#film): master :30 16:9 (<video controls playsinline preload="none" poster> with <source media="(min-width:900px)"> 1080p and a 720p fallback source), cutdowns :15 and :06 in 9:16, labels, and the line about the Spotify Canvas and web loop.
+9 FORMATS (#formats): 3 rows (Noon / Night / Dawn) x 4 native formats (16:9, 9:16, 4:5, 1:1) with their use labels, then the 7-step campaign system strip.
+10 FINAL CAMPAIGN (#campaign): 24-image masonry gallery, no text.
+11 PRODUCTION RESULT (#result): the 8 figures of instructions/metrics.json -> full_case, using the existing .stats/.stat component from /series.
+12 COMMERCIAL CONCLUSION (#proves): one big sentence and 3 short cards.
+13 CTA: the site's existing section.closing + .btn-red + nav.related, identical to /work (same href and booking), followed by the AI disclosure footnote.
+Reuse existing components first (.inner-hero pattern, .sec-head, .lead, .prose, .tag, .btn/.btn-red, section.closing, nav.related, and from /series .case, .stats/.stat, .gallery, .solve, .mini-link). Only for blocks with no equivalent (process bar, on-air strip, chapter cards, identity grid, compare slider, iteration cards, format matrix) port the styles from the reference prototype's inline <style>, scoped under a page class such as .zayra-page so no global style changes. Design tokens: background #060606, ink #ededE8, lines rgba(255,255,255,.13), case accent #ff2d9b (the site's SOCIAL colour), 1px borders, no rounded corners, no shadows. Images: <picture> with AVIF (when provided) -> WebP srcset -> JPG <img> with width and height; loading="lazy" decoding="async" everywhere except the hero (fetchpriority="high"). Respect prefers-reduced-motion (no autoplay; show the poster). If you use a reveal-on-scroll effect, anything already above or inside the viewport must always be visible (anchor jumps must never leave a section blank), and add scroll-margin-top so the sticky bar does not cover section titles. The EN/ES toggle on the case swaps between /work/zayra and /es/work/zayra.
+
+STEP 5 — METHOD LINK
+On /method, in section#bibles, inside .prose, add one paragraph after the existing paragraph that links to the series:
+EN: <p><a href="/work/zayra">See it in a full campaign: the Zayra case →</a></p>
+ES (/es/method): <p><a href="/es/work/zayra">Míralo en una campaña completa: el caso Zayra →</a></p>
+Same link style as the series link. Nothing else changes on /method.
+
+STEP 6 — SEO FOR THE TWO NEW PAGES ONLY
+Through the site's normal Next.js metadata mechanism, add from instructions/seo_meta.json: title, meta description, self canonical, robots "index, follow", hreflang en (/work/zayra), es (/es/work/zayra) and x-default (/work/zayra), OpenGraph (og:type article, 1200x630 image zayra-og-en-1200.jpg / zayra-og-es-1200.jpg, og:video) and Twitter summary_large_image. Inject the JSON-LD from instructions/schema_work_zayra_en.jsonld and instructions/schema_work_zayra_es.jsonld, replacing PUBLISH_DATE_ISO8601 with the real publish date; they reference the existing Organization by @id — do not redefine it. Use the alt texts from instructions/alt_texts.csv. Internal links are exactly the three entry points above plus the closing related links. Sitemap: only if it is generated automatically from the routes; if adding the URLs would require editing the SEO engine or /admin/seo, do not do it and tell César.
+
+STEP 7 — ANALYTICS (reuse the existing GA4 gtag setup and consent mode; add nothing else)
+Send through the site's existing gtag/dataLayer helper:
+view_zayra_case (case page load; lang) · view_zayra_home_feature (Home block 50% visible, once; lang) · play_zayra_master (first play; lang, quality 1080p|720p) · play_zayra_cutdown (first play; length 15|6) · view_zayra_consistency / view_zayra_storyboard / view_zayra_formats (section 50% visible, once; lang) · zayra_cta_click (location: home_feature | home_media | work_card | method_link | case_hero | case_closing) · zayra_outbound_click (destination: spotify | youtube | instagram).
+Do not change, rename or duplicate generate_lead; the booking form must keep firing it exactly as now.
+
+STEP 8 — VALIDATE ON THE PREVIEW URL (all must pass)
+Responsive: 375x812, 768x1024, 1280x800, 1440x900, EN and ES; no horizontal scroll (scrollWidth equals innerWidth) on Home, /work, /method and both case pages; blocks stack below 1000px; sliders work with touch and keyboard.
+Video: every mp4 returns 200, video/mp4 and supports range requests; loops autoplay muted on iOS Safari and Android Chrome; films do not download before play; posters show; sound works on the master and cutdowns; mobile receives the 720p master.
+Links: Home CTA, Work cards, Method link and EN/ES toggle reach the right URLs in each language; process-bar anchors scroll correctly; outbound links open in a new tab; zero 404s for images, video and fonts.
+SEO: one H1 per case page; correct title, description, canonical, 3 hreflang, OG and Twitter tags; JSON-LD valid in Google Rich Results Test and the Schema.org validator; every image has a non-empty alt; Lighthouse on /work/zayra mobile: SEO >= 95, Accessibility >= 90, Performance >= 80. Diff the <head> of /, /es, /work, /es/work, /method and /es/method before and after: it must be identical. robots.txt, llms.txt and the global schema must be identical.
+Analytics: GA4 DebugView shows every event above once with correct params; page_view still fires everywhere; a test submission of the booking form still fires generate_lead unchanged; behaviour with consent declined is unchanged.
+No console errors on any touched page.
+
+STEP 9 — DEPLOY AND REPORT
+Deploy to the preview/staging URL and send César: the preview URL; screenshots at 375 and 1440 px, EN and ES, of the Home block, the Work block and the full case page; the Lighthouse scores; the GA4 DebugView capture; and the list of files changed. Wait for César's written approval. Only then deploy to production, re-run STEP 8 on production (including the <head> diffs and the sitemap check) and report the production URLs. If anything in this prompt conflicts with the existing code in a way that would force you to touch something on the "do not modify" list, stop and ask César instead of improvising.
+
+`
